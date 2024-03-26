@@ -1,0 +1,26 @@
+{
+  "name": "websocket-chat",
+  "version": "1.0.0",
+  "description": "A chat with a simple frontend using websocket.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AMrDan/websocket-chat.git"
+  },
+  "author": "Daniel Adamis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AMrDan/websocket-chat/issues"
+  },
+  "homepage": "https://github.com/AMrDan/websocket-chat#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-handlebars": "^7.1.2",
+    "nodemon": "^3.1.0",
+    "socket.io": "^4.7.5"
+  }
+}
